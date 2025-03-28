@@ -26,7 +26,8 @@
     "test": "jest --runInBand --verbose --coverage",
     "test:watch": "jest --runInBand --verbose --watch",
     "format": "prettier --write .",
-    "format-check": "prettier --check ."
+    "format-check": "prettier --check .",
+    "preinstall": "node preinstall.js"
   },
   "main": "./dist/lib/index.js",
   "bin": "./dist/lib/CLI.js",
